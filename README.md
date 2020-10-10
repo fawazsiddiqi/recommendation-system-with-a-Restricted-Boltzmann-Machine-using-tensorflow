@@ -1,8 +1,19 @@
-# recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow
+# Build a Recommendation Engine with a Restricted Boltzmann Machine using TensorFlow
 Code-pattern to walk through RBM based recommender system using TF
 
-- basics of RBM
-- How does RBM help?
+## What is a Restricted Boltzmann Machine (RBM)?
+
+## How do Restricted Boltzmann Machines (RBM) help us?
+
+## Our Use Case
+
+## Algorithm Breakdown Restricted Boltzmann Machines (RBM)
+
+## Where else is RBM used?
+
+## How is RBM better to other Algorithms?
+
+## Lets do an exercise
 
 1. Sign up or log in.
 
@@ -30,9 +41,3 @@ Code-pattern to walk through RBM based recommender system using TF
 1. Run the Notebook.
 
    In the open Notebook, click **Run** to run the cells one at a time. The rest of the tutorial follows the order of the Notebook.
-   
-
-- Explain the use case
-- Algorithm breakdown of RBM
-- RBM and its uses (Use cases)
-- How is RBM better?
