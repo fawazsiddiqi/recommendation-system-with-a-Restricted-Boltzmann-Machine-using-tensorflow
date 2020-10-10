@@ -13,7 +13,7 @@ Code-pattern to walk through RBM based recommender system using TF
 
 ## How is RBM better to other Algorithms?
 
-## Lets do an exercise
+## Lets Get Started
 
 1. Sign up or log in.
 
