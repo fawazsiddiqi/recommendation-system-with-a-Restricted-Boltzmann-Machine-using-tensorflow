@@ -50,7 +50,7 @@ In reconstruction, the logic is pretty simple, we habe the activations which are
 
     * Create an IBM Cloud Account or login at http://ibm.biz/RBM_TensorFlow
 
-1. Create an instance of Watson Studio
+2. Create an instance of Watson Studio
     
     * Once logged in, search for Watson Studio and create a lite instance 
 <p align="center">
@@ -61,24 +61,39 @@ In reconstruction, the logic is pretty simple, we habe the activations which are
 <img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/ws2.png?raw=true"  width="800">
 </p>
 
-1. Create an empty project.
+3. Create an empty project.
 
-    * Click either **Create a project** or **New project**.
+    * Access the serivce and click either **Create a project** or **New project**.
     * Select **Create an empty project**.
     * Give the project a name.
     * Choose an existing Object Storage service instance or create a new one.
     * Click **Create**.
 
-1. Add the Notebook.
+<p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/ws3.png?raw=true"  width="800">
+</p>
 
+4. Add the Notebook.*
+
+   * Access the created project.
    * Click **+Add to project**.
    * Click **Notebook**.
    * Click **From URL**.
    * Provide a **Name**.
    * Under **Select runtime**, choose **Default Python 3.6 Free**.
    * Enter `https://raw.githubusercontent.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/master/notebooks/CollaborativeFilteringwithRBM.ipynb` as the **Notebook URL**.
-   * Click **Create Notebook**.
+   * Click **Create**.
 
-1. Run the Notebook.
+<p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/ws4.png?raw=true"  width="800">
+</p>
+<p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/ws5.png?raw=true"  width="800">
+</p>
+<p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/ws6.png?raw=true"  width="800">
+</p>
+
+5. Run the Notebook.
 
    In the open Notebook, click **Run** to run the cells one at a time. The rest of the tutorial follows the order of the Notebook.
