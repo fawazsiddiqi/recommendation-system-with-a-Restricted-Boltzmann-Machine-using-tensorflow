@@ -54,11 +54,11 @@ In reconstruction, the logic is pretty simple, we habe the activations which are
     
     * Once logged in, search for Watson Studio and create a lite instance 
 <p align="center">
-<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/ws1.png?raw=true"  width="600">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/ws1.png?raw=true"  width="800">
 </p>
 
 <p align="center">
-<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/ws2.png?raw=true"  width="600">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/ws2.png?raw=true"  width="800">
 </p>
 
 1. Create an empty project.
