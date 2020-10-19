@@ -29,9 +29,13 @@ The weights in the nueral network are in a matrix, where the number of input nod
 
 ![rbm_recon](https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/reconstruction.png?raw=true)
 
-In reconsutection the logic is pretty simple, we habe the activations which are the inputs at this point, which are then passed to the hidden layer and then to the input later after which new biases are obtained and the reconstruction is the new output.
+In reconstruction, the logic is pretty simple, we habe the activations which are the inputs at this point, which are then passed to the hidden layer and then to the input later after which new biases are obtained and the reconstruction is the new output.
 
-**So how does the learning process really work?** As these two steps happen subsequently, where forst we generate activations using multiple inputs phase and then reconstruction takes place, when the reconstruction is taking place in an epoch, our main goal here is to decrease the reconstuction error, thus the weights are then adjusted per-iteration accordingly by the algorithm to decrease the reconstruction error which will result in giving us a good prediction/higher accuracy.
+**So how does the learning process really work?** As these two steps happen subsequently, where first we generate activations using multiple inputs phase and then reconstruction takes place, when the reconstruction is taking place in an epoch, our main goal here is to decrease the reconstuction error, thus the weights are then adjusted per-iteration accordingly by the algorithm to decrease the reconstruction error which will result in giving us a good prediction/higher accuracy.
+
+<p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/films.png?raw=true"  width="600">
+</p>
 
 ## Where else is RBM used?
 
