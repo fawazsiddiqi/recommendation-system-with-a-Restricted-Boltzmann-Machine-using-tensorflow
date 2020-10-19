@@ -8,7 +8,7 @@ As the name suggests, RBM is a class of Boltzmann machines, but they are restric
 
 This is how an RBM looks like, as you can see all the nodes in the input layer are connected to the each node in the hidden layer, and the structure of the Neural Network itself makes it efficient when it comes to training our Neural Network as one input layer can use many hidden layers for training. Multiple RBM's can be stacked on as well creating a Deep Belief Network which will allow more deeper learning of the neural network and incorporate further learning.
 
-![rbm_networks](./images/rbm_network.png)
+![rbm_networks](https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/rbm_network.png?raw=true)
 
 
 ## How does a Restricted Boltzmann Machine (RBM) work?
@@ -19,7 +19,7 @@ There are two steps involved when it comes to the working of a RBM:
 
 #### Multiple Inputs
 
-![rbm_multi](./images/multiinputs.png)
+![rbm_multi](https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/multiinputs.png?raw=true)
 
 Multiple inputs is considered to be the first step when it comes to the training of the Neural Network, the inputs are taken into the input layer, multiplied by the wieghts and is added to the bias. After which it goes through the activation function (sigmoid) and thus the outputs decide if the hidden state gets activated. 
 
@@ -27,7 +27,7 @@ The weights in the nueral network are in a matrix, where the number of input nod
 
 #### Reconstruction
 
-![rbm_recon](./images/reconstruction.png)
+![rbm_recon](https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/reconstruction.png?raw=true)
 
 In reconsutection the logic is pretty simple, we habe the activations which are the inputs at this point, which are then passed to the hidden layer and then to the input later after which new biases are obtained and the reconstruction is the new output.
 
