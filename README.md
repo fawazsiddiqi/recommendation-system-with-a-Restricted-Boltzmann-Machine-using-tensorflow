@@ -46,6 +46,8 @@ In reconstruction, the logic is pretty simple, we habe the activations which are
 
 ## Lets Get Started
 
+### Setting up your services
+
 1. Sign up or log in.
 
     * Create an IBM Cloud Account or login at http://ibm.biz/RBM_TensorFlow
@@ -97,3 +99,4 @@ In reconstruction, the logic is pretty simple, we habe the activations which are
 5. Run the Notebook.
 
    In the open Notebook, click **Run** to run the cells one at a time. The rest of the tutorial follows the order of the Notebook.
+
