@@ -48,7 +48,7 @@ In reconstruction, the logic is pretty simple, we habe the activations which are
 
 1. Sign up or log in.
 
-    * Create an IBM Cloud Account at http://ibm.biz/RBM_TensorFlow
+    * Create an IBM Cloud Account or login at http://ibm.biz/RBM_TensorFlow
 
 1. Create an instance of Watson Studio
     
