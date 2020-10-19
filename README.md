@@ -48,8 +48,18 @@ In reconstruction, the logic is pretty simple, we habe the activations which are
 
 1. Sign up or log in.
 
-    * Activate Watson Studio by logging in to your IBM Cloud account from the [Try IBM Watson](https://dataplatform.cloud.ibm.com/registration/stepone?cm_sp=ibmdev-_-developer-tutorials-_-cloudreg) page.
-    * Access Watson Studio, by logging in at [https://dataplatform.cloud.ibm.com](https://dataplatform.cloud.ibm.com?cm_sp=ibmdev-_-developer-tutorials-_-cloudreg).
+    * Create an IBM Cloud Account at http://ibm.biz/RBM_TensorFlow
+
+1. Create an instance of Watson Studio
+    
+    * Once logged in, search for Watson Studio and create a lite instance 
+ <p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/ws1.png?raw=true"  width="600">
+</p>
+<br>
+<p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/ws2.png?raw=true"  width="600">
+</p>
 
 1. Create an empty project.
 
