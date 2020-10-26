@@ -98,5 +98,5 @@ In reconstruction, the logic is pretty simple, we habe the activations which are
 
 5. Run the Notebook.
 
-   In the open Notebook, click **Run** to run the cells one at a time. The rest of the tutorial follows the order of the Notebook.
+   In the open Notebook, click **Run** to run the cells one at a time. The rest of the tutorial follows the order of the Notebook which will explain the working of RBM's and Reccomendation systems
 
