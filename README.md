@@ -83,7 +83,7 @@ In reconstruction, the logic is pretty simple, we habe the activations which are
    * Click **From URL**.
    * Provide a **Name**.
    * Under **Select runtime**, choose **Default Python 3.6 Free**.
-   * Enter `https://raw.githubusercontent.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/master/notebooks/CollaborativeFilteringwithRBM.ipynb` as the **Notebook URL**.
+   * Enter `https://raw.githubusercontent.com/IBM/dl-learning-path-assets/main/unsupervised-deeplearning/notebooks/CollabortiveFilteringUsingRBM.ipynb` as the **Notebook URL**.
    * Click **Create**.
 
 <p align="center">
