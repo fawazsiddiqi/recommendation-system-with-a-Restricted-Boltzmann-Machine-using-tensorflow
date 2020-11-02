@@ -82,7 +82,7 @@ In reconstruction, the logic is pretty simple, we habe the activations which are
    * Click **Notebook**.
    * Click **From URL**.
    * Provide a **Name**.
-   * Under **Select runtime**, choose **Default Python 3.7 Free**.
+   * Under **Select runtime**, choose **Default Python 3.7 XS**.
    * Enter `https://raw.githubusercontent.com/IBM/dl-learning-path-assets/main/unsupervised-deeplearning/notebooks/CollabortiveFilteringUsingRBM.ipynb` as the **Notebook URL**.
    * Click **Create**.
 
