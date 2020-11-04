@@ -14,6 +14,10 @@ The following prerequisites are required to follow the tutorial:
 - An [IBM Cloud Account](http://ibm.biz/RBM_TensorFlow)
 - IBM Cloud Pak for Data
 
+### Estimated time
+
+It should take you approximately 40 minutes to complete the tutorial.
+
 ## What is a Restricted Boltzmann Machine (RBM)?
 But before we start, let's talk a bit about the basics of RBM. An RBM is a two-layered (input layer and hidden layer) Artificial Neural Network which learns a probability distribution based on a set of inputs, it is a stochastic (non-deterministic) which helps us solve different combination based problems. RBM's can be used for dimensionality reduction, classification, regression, collaborative filtering, feature learning, and topic modeling.
 
