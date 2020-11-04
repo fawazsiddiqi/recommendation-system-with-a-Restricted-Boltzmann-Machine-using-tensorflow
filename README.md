@@ -136,11 +136,15 @@ Once your project is created
 
 1. Loading the data set
 
+Like every notebook, we start with downloading our data set into the environment
+
 <p align="center">
 <img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_data.png?raw=true"  width="800">
 </p>
 
 2. Adding data into the data frame 
+
+We create two data frames ```movies_df``` for our movies and ```ratings_df``` for our movie ratings 
 
 <p align="center">
 <img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_df.png?raw=true"  width="800">
@@ -148,11 +152,25 @@ Once your project is created
 
 3. Rename the columns in the data frames
 
+We rename the columns in the data frames making sure that we are able to understand the data properly
+
+```movies_df``` consists of 3 columns MovieID, Title and Genres
+
+```ratings_df``` consists of 4 columns UserID, MovieID, Rating and Timestamp
+
 <p align="center">
 <img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_df_rename.png?raw=true"  width="800">
 </p>
 
 4. Normalize the data 
+
+When we create a pivot of ```ratings_df``` there is a lot of data marked as ```NaN```
+
+```python
+user_rating_df = ratings_df.pivot(index='UserID', columns='MovieID', values='Rating')
+user_rating_df.head()
+```
+Thus, we store the normalized users ratings into as a matrix of user-rating called trX, and normalize the values.
 
 <p align="center">
 <img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_norm.png?raw=true"  width="800">
@@ -160,11 +178,23 @@ Once your project is created
 
 5. Setting the models parameters 
 
+After normalizing our data, we set the model parameters which includes the hidden units and the visible units, after which we add our activation functions ```f.sigmoid``` and ```tf.relu``` since they are commonly used for RBM's and continue with defining a function to return only the generated hidden states for the hidden layer and also for the reconstructed output
+
 <p align="center">
 <img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_pram.png?raw=true"  width="800">
 </p>
 
 6. Train the model 
+
+Once the model parameters are set, we train our model with 
+```python
+epochs = 5
+batchsize = 500
+errors = []
+weights = []
+K=1
+alpha = 0.1
+```
 
 <p align="center">
 <img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_train.png?raw=true"  width="800">
@@ -172,11 +202,15 @@ Once your project is created
 
 7. Create mock user
 
+We create a mock user by providing a ```mock user id``` and feeding it into the model
+
 <p align="center">
 <img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_mock.png?raw=true"  width="800">
 </p>
 
 8. List recommended movies for mock user
+
+We then list 20 most recommended movies for our mock user by sorting it by their recommendation scores which are provided by the model
 
 <p align="center">
 <img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_mock_rec.png?raw=true"  width="800">
@@ -184,12 +218,28 @@ Once your project is created
 
 9. Add timestamp to watched movies 
 
+We then add a timestamp based on our user using the ```ratings_df``` data frame using the following function
+
+```python
+movies_df_mock = ratings_df[ratings_df['UserID'] == mock_user_id]
+movies_df_mock.head()
+```
+
 <p align="center">
 <img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_watched.png?raw=true"  width="800">
 </p>
 
 10. Merge watched movies with the predicted scores
 
+And then we merge and output the first 20 rows, which will allow us to see the users watched movies as well as recommended movies based on their recommendation score
+
 <p align="center">
 <img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_merge.png?raw=true"  width="800">
 </p>
+
+Finally with this last step we have completed going through our notebook, you can try to change the model parameters such as adding more units to the hidden layer, changing the loss functions to see if anything changes and for more optimization you can change the number of epochs, the size of K, and the batch size are all interesting numbers to explore as they will give a different output.
+
+
+## Summary
+
+In this tutorial, you looked at the basics and implementation of Restricted Boltzmann Machines using TensorFlow and created a movie recommendation model based on collaborative filtering, where ratings and users were involved to give the recommendation for the movies a user would be interested to watch. 
