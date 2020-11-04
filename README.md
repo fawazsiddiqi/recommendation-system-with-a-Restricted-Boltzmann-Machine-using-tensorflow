@@ -12,7 +12,7 @@ In this tutorial, we are going to build a Restricted Boltzmann Machine using Ten
 The following prerequisites are required to follow the tutorial:
 
 - An [IBM Cloud Account](http://ibm.biz/RBM_TensorFlow)
-- IBM Cloud Pak for Data
+- [IBM Cloud Pak for Data](https://www.ibm.com/products/cloud-pak-for-data?_ga=2.267180366.1774892577.1604212572-1823395377.1603704903)
 
 ### Estimated time
 
@@ -67,6 +67,7 @@ In reconstruction, the logic is pretty simple, we habe the activations which are
 - [Set up IBM Cloud Pak for Data as a Service](#Setting-up-IBM-Cloud-Pak-for-Data-as-a-Service)
 - [Create a new Project](#Create-a-new-project)
 - [Import the notebook](#Import-the-Notebook)
+- [Read through the notebook](#Read-through-the-notebook)
 
 ### Setting up IBM Cloud Pak for Data as a Service
 
@@ -130,3 +131,65 @@ Once your project is created
 5. Run the Notebook.
 
    In the open Notebook, click **Run** to run the cells one at a time. The rest of the tutorial follows the order of the Notebook.
+
+### Read through the notebook
+
+1. Loading the data set
+
+<p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_data.png?raw=true"  width="800">
+</p>
+
+2. Adding data into the data frame 
+
+<p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_df.png?raw=true"  width="800">
+</p>
+
+3. Rename the columns in the data frames
+
+<p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_df_rename.png?raw=true"  width="800">
+</p>
+
+4. Normalize the data 
+
+<p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_norm.png?raw=true"  width="800">
+</p>
+
+5. Setting the models parameters 
+
+<p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_pram.png?raw=true"  width="800">
+</p>
+
+6. Train the model 
+
+<p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_train.png?raw=true"  width="800">
+</p>
+
+7. Create mock user
+
+<p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_mock.png?raw=true"  width="800">
+</p>
+
+8. List recommended movies for mock user
+
+<p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_mock_rec.png?raw=true"  width="800">
+</p>
+
+9. Add timestamp to watched movies 
+
+<p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_watched.png?raw=true"  width="800">
+</p>
+
+10. Merge watched movies with the predicted scores
+
+<p align="center">
+<img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np_merge.png?raw=true"  width="800">
+</p>
