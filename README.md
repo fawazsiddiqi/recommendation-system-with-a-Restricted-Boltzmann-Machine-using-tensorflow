@@ -63,6 +63,11 @@ In reconstruction, the logic is pretty simple, we habe the activations which are
 
 ## Lets Get Started
 
+## Steps
+- [Set up IBM Cloud Pak for Data as a Service](#Setting-up-IBM-Cloud-Pak-for-Data-as-a-Service)
+- [Create a new Project](#Create-a-new-project)
+- [Import the notebook](#Import-the-Notebook)
+
 ### Setting up IBM Cloud Pak for Data as a Service
 
 1. Sign up or log in.
@@ -72,6 +77,7 @@ In reconstruction, the logic is pretty simple, we habe the activations which are
 2. Create an instance of Watson Studio
     
     * Once logged in, search for Watson Studio and create a lite instance 
+
 <p align="center">
 <img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/ws1.png?raw=true"  width="800">
 </p>
@@ -80,13 +86,13 @@ In reconstruction, the logic is pretty simple, we habe the activations which are
 <img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/ws2.png?raw=true"  width="800">
 </p>
 
-3. Create an empty project.
+### Create a new project
 
-    * Access the serivce and click either **Create a project** or **New project**.
-    * Select **Create an empty project**.
-    * Give the project a name.
-    * Choose an existing Object Storage service instance or create a new one.
-    * Click **Create**.
+ * Access the serivce and click either **Create a project** or **New project**.
+ * Select **Create an empty project**.
+ * Give the project a name.
+ * Choose an existing Object Storage service instance or create a new one.
+ * Click **Create**.
 
 <p align="center">
 <img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/ws3.png?raw=true"  width="800">
@@ -98,7 +104,7 @@ In reconstruction, the logic is pretty simple, we habe the activations which are
 <img src="https://github.com/fawazsiddiqi/recommendation-system-with-a-Restricted-Boltzmann-Machine-using-tensorflow/blob/master/images/np.png?raw=true"  width="800">
 </p>
 
-### Add the Notebook 
+### Import the Notebook 
 
 Once your project is created
 
