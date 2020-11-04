@@ -63,6 +63,8 @@ In reconstruction, the logic is pretty simple, we habe the activations which are
 
 ## Lets Get Started
 
+Now we will implement a movie recommendation system based on Restricted Boltzmann Machine using TensorFlow wherw we will use a users and ratings data set to predict recommendation scores for movies a particular user may be interested to watch based on their previous watch history.
+
 ## Steps
 - [Set up IBM Cloud Pak for Data as a Service](#Setting-up-IBM-Cloud-Pak-for-Data-as-a-Service)
 - [Create a new Project](#Create-a-new-project)
